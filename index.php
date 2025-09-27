@@ -85,15 +85,29 @@ echo "I am $name and $age years old.";
     </div>
 
     <div class="topic">
-        <h2>PHP Practice</h2>
+        <h2><strong>Topic:</strong> Data Types</h2>
 
         <!-- code view -->
         <div class="code">
             <pre>
-&lt:?php
-$name = "Moeen";
+&lt?php
+$name = "Moeen"; //String
+$roll = 40; //integer
+$cgpa = 3.50; //float 
+$available = true; //boolean
+$colors = {"red", "green", "blue"}; //array
 ?&gt
             </pre>
+        </div>
+        <!-- Output Result -->
+        <div class="result">
+            <?php
+            $name = "Moeen"; //String
+            $roll = 40; //integer
+            $cgpa = 3.50; //float 
+            $available = true; //boolean
+            $colors = ["red", "green", "blue"]; //array
+            ?>
         </div>
     </div>
 
