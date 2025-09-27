@@ -138,6 +138,28 @@ echo "$number + 10"; //20
         </div>
     </div>
 
+    <!-- Output & Debugging -->
+    <div>
+        <div class="topic">
+            <h2><strong>Topic:</strong> Output & Debugging</h2>
+            <!-- code view -->
+            <div class="code">
+                <pre>
+&lt?php
+$data = ["name" => "Moeen", "Roll" => 40, "cgpa" => 2.89];
+var_dump($data);
+?&gt
+                </pre>
+            </div>
+            <div class="result">
+                <?php
+                $data = ["name" => "Moeen", "Roll" => 40, "cgpa" => 2.89];
+                var_dump($data);
+                ?>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
