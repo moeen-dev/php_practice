@@ -84,30 +84,57 @@ echo "I am $name and $age years old.";
         </div>
     </div>
 
-    <div class="topic">
-        <h2><strong>Topic:</strong> Data Types</h2>
+    <div>
+        <div class="topic">
+            <h2><strong>Topic:</strong> Data Types</h2>
 
-        <!-- code view -->
-        <div class="code">
-            <pre>
-&lt?php
+            <!-- code view -->
+            <div class="code">
+                <pre>
+&lt;?php
 $name = "Moeen"; //String
 $roll = 40; //integer
 $cgpa = 3.50; //float 
 $available = true; //boolean
 $colors = {"red", "green", "blue"}; //array
-?&gt
-            </pre>
+?&gt;
+</pre>
+            </div>
+            <!-- Output Result -->
+            <div class="result">
+                <?php
+                $name = "Moeen"; //String
+                $roll = 40; //integer
+                $cgpa = 3.50; //float 
+                $available = true; //boolean
+                $colors = ["red", "green", "blue"]; //array
+                echo "No Result Here";
+                ?>
+            </div>
         </div>
-        <!-- Output Result -->
-        <div class="result">
-            <?php
-            $name = "Moeen"; //String
-            $roll = 40; //integer
-            $cgpa = 3.50; //float 
-            $available = true; //boolean
-            $colors = ["red", "green", "blue"]; //array
-            ?>
+    </div>
+
+    <!-- Casting Data Types -->
+    <div>
+        <div class="topic">
+            <h2><strong>Topic:</strong> Casting Data Types</h2>
+            <!-- code view -->
+            <div class="code">
+                <pre>
+&lt?php
+$number = "10"; //string
+$number = (int($number)); //cast to integer
+echo "$number + 10"; //20
+?&gt
+                </pre>
+            </div>
+            <div class="result">
+                <?php
+                $number = "10"; //string
+                $number = (int)$number; //cast to integer
+                echo "$number + 10"; //20
+                ?>
+            </div>
         </div>
     </div>
 
